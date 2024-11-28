@@ -1,0 +1,11 @@
+.items {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 2vw;
+    margin-left: 2vw;
+}
+.items a {
+    color: white;
+    text-decoration: none;
+    margin-left: 10px;
+}

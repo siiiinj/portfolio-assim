@@ -1,0 +1,24 @@
+.card_comp {
+    display: flex;
+    align-items: stretch;
+}
+
+.skill-card {
+    width: 100%;
+    border-radius: 10px;
+    -webkit-box-shadow: 5px 5px 15px 5px #4D0BFF;
+    box-shadow: 10px 5px 35px 5px #440466;
+    margin: 5vw;
+    transition: 200ms ease-in-out;
+    display: flex;
+    flex-direction: column;
+}
+.skill-description {
+    align-items: center;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}

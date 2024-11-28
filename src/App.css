@@ -6,13 +6,28 @@
   height: 40vmin;
   pointer-events: none;
 }
+#Projects {
+  align-items: center;
+  justify-content: center;
+  display: grid;
+  left: auto;
+  right: auto;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(auto, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  margin: 0 auto;
+  width: fit-content;
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
 }
-
+body {
+  scroll-behavior: smooth;
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;

@@ -1,0 +1,33 @@
+.herobanner {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    scroll-behavior: smooth;
+    height: 90vh;
+}
+.herobanner h1 {
+    font-size: 3rem;
+    color: white;
+    width: 50%;
+}
+.name {
+    color: blueviolet;
+}
+.scrollbutton {
+    margin-top: 10vh;
+}
+.scrollbutton a{
+    color: white;
+    font-size: 1.5rem;
+    text-decoration: none;
+    border: 1px solid white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: 0.5s;
+}
+.scrollbutton a:hover{
+    background-color: white;
+    color: black;
+}
