@@ -34,9 +34,9 @@ function App() {
         <h1>Projects</h1>
         <div id='Projects'>
           <Projects projects="LinkyyApp" image={linkyyimg} description="Project to create amobile application to track and manage electricity consumption and customer accounts." repo="https://github.com/KVJJJJ/LINKYY-APP"/>
-          <Projects projects="DRONE" image={drone} description="This project was a website, I had to create it to help me to learn HTML & CSS" repo="https://github.com/KVJJJJ/Drone-WEBSITE"/>
-          <Projects projects="DESIGN" image={DESIGN} description="Here you'll find design projects, commissions and personal projects." repo="https://github.com/KVJJJJ/DESIGN.gitE"/>
-          <Projects projects="ANEX" image={ANNEXE} description="HHere are some of the projects we did in the pool of the Etna" repo="https://github.com/KVJJJJ/Projet-Annex"/>
+          <Projects projects="DRONE" image={drone} description="This project is a website, I had to create it to help me to learn HTML & CSS" repo="https://github.com/KVJJJJ/Drone-WEBSITE"/>
+          <Projects projects="DESIGN" image={DESIGN} description="Here you'll find design projects, commissions and personal projects." repo="https://github.com/KVJJJJ/DESIGN"/>
+          <Projects projects="ANEX" image={ANNEXE} description="Here are some of the projects we did in the pool of the Etna" repo="https://github.com/KVJJJJ/Projet-Annex"/>
         </div>
         <br/>
         <Footer />

@@ -3,7 +3,7 @@ function Hero() {
   return (
     <div>
         <div className="herobanner">
-            <h1>Hi I'm <div className="name">Assim SENANI</div> student in computer development
+            <h1>Hi I'm <div className="name">Assim SENANI</div> student in computer science
             and I would like to specialize in front-end and website architecture/design.</h1>
             <div className="scrollbutton">
                 <a href="#formations">discover me</a>
